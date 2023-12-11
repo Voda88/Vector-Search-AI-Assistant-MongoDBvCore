@@ -155,7 +155,7 @@ public class MongoDbService
                             { "cosmosSearchOptions", new BsonDocument
                                 {
                                     { "kind", "vector-ivf" },
-                                    { "numLists", 2 },
+                                    { "numLists", 1 },
                                     { "similarity", "COS" },
                                     { "dimensions", 1536 }
                                 }
